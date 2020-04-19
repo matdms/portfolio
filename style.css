@@ -1,14 +1,23 @@
 
+/* GENERAL */
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Ubuntu', cursive;
+  font-weight: 300;
+  font-size: 22px;
 }
 
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+h1 {
+  font-family: 'Ubuntu', cursive;
   font-weight: 400;
+  font-size: 60px;
+  text-align: center;
 }
 
+.intro {
+  margin-top: 100px;
+}
+
+/* LIENS */
 a {
   text-decoration: none;
   color: blue;
@@ -16,4 +25,35 @@ a {
 
 a:hover {
   font-weight: bold;
+}
+
+/* ARTICLES */
+article {
+  font-family: 'Ubuntu', cursive;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 100px 0 100px 0;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.sous-titre {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.titre {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.preview {
+  border-radius: 20px;
+  max-width: 600px;
+  max-height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker|Oxygen|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>matdms portfolio</title>
 </head>
@@ -13,8 +13,67 @@
   
   <main>
     <h1>matdms portfolio</h1>
-    
-    <div>
+    <p class="intro">
+      This is my web development portfolio.<br />
+      I will add content here as i improve my skills as a web developer. I am currently following the course on <em>the Odin Project</em>.
+    </p>
+    <!--
+        un article par projet
+        avec un titre,
+        une description,
+        les icones de chaque langage utilisé,
+        une image,
+        une couleur de fond,
+        une couleur de police,
+    -->
+
+    <article id="calculator">
+      <div class="titre">Calculator</div>
+      <div class="badges">
+        <!-- inclu la date et les images des langages utilisés -->
+        <p class="date">April '20</p>
+      </div>
+      <div class="description">
+        <p class="sous-titre">
+          Create a calculator in javascript
+        </p>
+        <p class="desc">
+          The goal here was to create a calculator in javascript<br />
+          I did google "calculator" to find a design i liked. The i recreated this design in html + css. And of course made it functional using javascript.<br />
+          Proud of this first real project.
+        </p>
+      </div>
+      <div class="image">
+        <a href="https://matdms.github.io/odin-07-calculator/">
+          <img src="imgs/calculator.png" alt="calculator" class="preview">
+          </a>
+      </div>
+    </article>
+
+    <article id="drumkit">
+      <div class="titre">Drumkit</div>
+      <div class="badges">
+        <!-- inclu la date et les images des langages utilisés -->
+        <p class="date">March '20</p>
+      </div>
+      <div class="description">
+        <p class="sous-titre">
+          Create a drumkit in javascript
+        </p>
+        <p class="desc">
+          In this project, i created a drumkit in javascript, based on an idea by WesBos. Both mouse and keyboard inputs are functional.<br />
+          This certainly isn't suited for musicians, but it does work, and i guess that was the point!
+        </p>
+      </div>
+      <div class="image">
+        <a href="https://matdms.github.io/odin-05-js-drumkit/">
+          <img src="imgs/drumkit.png" alt="drumkit" class="preview">
+          </a>
+      </div>
+    </article>
+
+    <!--
+    <div class="old-table">
       <h2>My web development projects</h2>
       <table>
         <tr>
@@ -49,6 +108,7 @@
         </tr>
       </table>
     </div>
+    -->
     
   </main>
   
