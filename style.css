@@ -1,0 +1,19 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  font-weight: bold;
+}
