@@ -17,6 +17,7 @@ h1 {
   font-weight: 400;
   font-size: 80px;
   text-align: center;
+  margin: 0;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
   font-weight: 300;
   font-size: 22px;
   text-align: center;
+  margin: 0;
 }
 
 .intro {
@@ -62,20 +64,29 @@ article {
   margin: auto 0px auto 50px;
 }
 
-.date {
-  font-size: 14px;
-}
-
-.sous-titre {
-  font-family: 'Indie Flower', cursive;
-  font-weight: 600;
-  font-size: 26px;
+.gros-titre {
+  display: flex;
+  align-items: baseline;
 }
 
 .titre {
   font-family: 'Permanent Marker', cursive;
   font-weight: 400;
   font-size: 40px;
+  margin-right: 30px;
+}
+
+.date {
+  font-size: 14px;
+  margin: 0;
+}
+
+.sous-titre {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .preview {
@@ -83,6 +94,11 @@ article {
   max-width: 500px;
   max-height: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.desc {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .tags {
